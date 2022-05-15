@@ -8,11 +8,9 @@ class SyntheticAnomalies:
     data_mgr = DynamicDataManager()
     df = data_mgr.load_jsons()
 
-
     # S1: To handle random positive high peaks at the night time. For example, a
     # terminal operating at the night time and some random high peaks encountered, which deviates
-    # from the normal consumption measures.
-    
+    # from the normal consumption measures.    
     def synthetic_anomalies_S1(self):
     
         # For night, filter the data frame
@@ -47,7 +45,7 @@ class SyntheticAnomalies:
 
         list_of_anomalies = []
 
-        for _ in range(5):
+        for _ in range(number_of_anomalies):
             list_of_anomalies.append(random.randint(min_range, max_range))
         print(list_of_anomalies)
 
@@ -71,7 +69,7 @@ class SyntheticAnomalies:
 
         list_of_anomalies = []
 
-        for _ in range(5):
+        for _ in range(number_of_anomalies):
             list_of_anomalies.append(round(random.uniform(min_range, max_range), 2))
         print(list_of_anomalies)
 
@@ -95,7 +93,7 @@ class SyntheticAnomalies:
 
         list_of_anomalies = []
 
-        for _ in range(5):
+        for _ in range(number_of_anomalies):
             list_of_anomalies.append(random.randint(min_range, max_range))
         print(list_of_anomalies)
 
