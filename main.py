@@ -21,7 +21,6 @@ def main():
     # optics.optics_anomaly(0.1)
 
     # Synthetic anomalies injection
-
     artificial_anomalies = SyntheticAnomalies()
 
     # call the injection process according to the pre-defined scenarios
