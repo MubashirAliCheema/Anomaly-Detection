@@ -1,20 +1,5 @@
-from builtins import bool
-
-from pyspark.sql import *
-import pyspark.sql.functions as psf
-from sklearn.neighbors import NearestNeighbors
-import matplotlib.pyplot as plt
-import pandas as pd
-from sklearn import metrics
 from pandas import np
 from sklearn.cluster import DBSCAN
-import matplotlib
-from sklearn.decomposition import PCA
-from sklearn.preprocessing import StandardScaler
-import datetime
-import pyspark.sql.functions as F
-from numpy import random, where
-import time
 from PELL_street_lighting_data import DynamicDataManager
 
 
