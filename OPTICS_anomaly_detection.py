@@ -18,7 +18,7 @@ class OPTICSAonamyDetection:
         print('Estimated number of clusters: %d' % no_clusters)
         print('Estimated number of noise points: %d' % no_noise)
 
-        outliers_DF = self.df[labels == -1]
+        outliers_DF = self.df[labels == 1]
         print(outliers_DF)
 
 
