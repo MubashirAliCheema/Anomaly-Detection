@@ -6,8 +6,10 @@ import pandas as pd
 
 
 def main():
-    # data_mgr = DynamicDataManager()
-    # df = data_mgr.load_jsons()
+    
+    # Anomaly detection with K-means
+    # kmeans = KmeansAnomalyDetection()
+    # kmeans.Kmeans_anomaly(2)
 
     # Anomaly detection with DBSCAN
     # dbscan = DBSCANAnomalyDetection()
