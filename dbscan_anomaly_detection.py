@@ -45,5 +45,5 @@ class DBSCANAnomalyDetection:
         print('Estimated number of noise points: %d' % n_noise_)
 
         # outlier dataframe
-        outliers_DF = self.df[db.labels_ == 1]
+        outliers_DF = self.df[db.labels_ == -1]
         print(outliers_DF)
