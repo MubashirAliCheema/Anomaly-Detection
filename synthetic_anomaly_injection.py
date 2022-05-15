@@ -13,6 +13,9 @@ class SyntheticAnomalies:
     # from the normal consumption measures.
     def synthetic_anomalies_S1(self):
 
+    # S1: To handle random positive high peaks at the night time. For example, a
+    # terminal operating at the night time and some random high peaks encountered, which deviates
+    # from the normal consumption measures.
         # For night, filter the data frame
         updated_df = self.df[self.df['dayORnight'] == '0']
 
