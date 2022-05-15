@@ -42,6 +42,6 @@ class DynamicDataManager:
             lambda x: '0' if int(x.strftime('%H')) > 20 or int(x.strftime('%H')) < 6 else '1')
         # panda_DF['Time'] = panda_DF['Time'].astype(str).astype(int)
         panda_DF.set_index('start_time', drop=True, inplace=True)
-        print(panda_DF.head(10))
+        print(panda_DF.head())
 
         return panda_DF
