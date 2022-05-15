@@ -2,6 +2,7 @@ from PELL_street_lighting_data import DynamicDataManager
 from dbscan_anomaly_detection import DBSCANAnomalyDetection
 from OPTICS_anomaly_detection import OPTICSAonamyDetection
 from synthetic_anomaly_injection import SyntheticAnomalies
+from Kmeans_anomaly_detection import KmeansAnomalyDetection
 import pandas as pd
 
 
