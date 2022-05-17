@@ -6,4 +6,7 @@
 Project repository contains data set folder with name “PELL_Data_with_Synthetic_Anomalies” and implementation files for algorithms K-means, DBSCAN, OPTICS, and synthetic anomaly injection.
 #### How to execute K-means Model
 ```
+Run main.py    and      uncomment
 
+
+```
