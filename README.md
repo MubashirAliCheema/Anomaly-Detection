@@ -23,4 +23,4 @@ optics = OPTICSAonamyDetection()
 optics.optics_anomaly(eps_value)
 ```
 ### Artificial Anomalies
-In order to evaluate the performance of cluster algorithms for anomaly detection from street lighting data, we introduced six anomalous scenarios w.r.t. street lighting domain. By following these domain specific scenarios, synthetic anomalies are automatically inserted into the original data set. This helps to determine the ability of clustering algorithms to detect anomalies by using some standard evaluation metrices.
+In order to evaluate the performance of cluster algorithms for anomaly detection from street lighting data, we introduced six anomalous scenarios w.r.t. street lighting domain. By following these domain specific scenarios, synthetic anomalies are automatically inserted into the original data set. This helps to determine the ability of clustering algorithms to detect anomalies by using some standard evaluation metrics.
