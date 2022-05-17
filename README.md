@@ -12,9 +12,9 @@ kmeans.Kmeans_anomaly(no of clusters)
 ```
 
 
-#### How to execute K-means Model
+#### How to execute DBSCAN Model
 ```
 Run main.py    and      uncomment
-kmeans = KmeansAnomalyDetection()
-kmeans.Kmeans_anomaly(no of clusters)
+dbscan = DBSCANAnomalyDetection()
+dbscan.dbscan_anomaly(eps_value, min_sample_value)
 ```
