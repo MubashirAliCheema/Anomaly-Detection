@@ -27,5 +27,5 @@ In order to evaluate the performance of cluster algorithms for anomaly detection
 - The file name “synthetic_anomaly_injection.py” contains the implementation for all the six scenarios to automatically insert synthetic anomalies.
 #### How to execute synthetic anomaly injection algorithm
 ```
-Run main.py    and      uncomment
+Run main.py    and   uncomment  whatever the scenario you want  to invoke
 ```
