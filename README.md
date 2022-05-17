@@ -10,11 +10,15 @@ Run main.py    and      uncomment
 kmeans = KmeansAnomalyDetection()
 kmeans.Kmeans_anomaly(no of clusters)
 ```
-
-
 #### How to execute DBSCAN Model
 ```
 Run main.py    and      uncomment
 dbscan = DBSCANAnomalyDetection()
 dbscan.dbscan_anomaly(eps_value, min_sample_value)
+```
+#### How to execute OPTICS Model
+```
+Run main.py    and      uncomment
+optics = OPTICSAonamyDetection()
+optics.optics_anomaly(eps_value)
 ```
