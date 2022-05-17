@@ -22,3 +22,4 @@ Run main.py    and      uncomment
 optics = OPTICSAonamyDetection()
 optics.optics_anomaly(eps_value)
 ```
+### Artificial Anomalies
