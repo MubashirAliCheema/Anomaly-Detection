@@ -7,6 +7,6 @@ Project repository contains data set folder with name “PELL_Data_with_Syntheti
 #### How to execute K-means Model
 ```
 Run main.py    and      uncomment
-
-
+kmeans = KmeansAnomalyDetection()
+kmeans.Kmeans_anomaly(no of clusters)
 ```
