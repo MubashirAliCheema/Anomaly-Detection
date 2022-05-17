@@ -10,3 +10,11 @@ Run main.py    and      uncomment
 kmeans = KmeansAnomalyDetection()
 kmeans.Kmeans_anomaly(no of clusters)
 ```
+
+
+#### How to execute K-means Model
+```
+Run main.py    and      uncomment
+kmeans = KmeansAnomalyDetection()
+kmeans.Kmeans_anomaly(no of clusters)
+```
